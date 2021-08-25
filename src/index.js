@@ -1,13 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import '../src/css/styles.css';
+import Header from './components/Header';
+import Home from './components/Home';
+import About from './components/About';
+import Skills from './components/Skills';
+import Work from './components/Work';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+
 
 
 ReactDOM.render(
+  
   <React.StrictMode>
-    <App />
+    <Header />
+    <Home />
+    <About />
+    <Skills />
+    <Work />
+    <Contact />
+    <Footer />
   </React.StrictMode>,
+  
   document.getElementById('root')
+  
 );
 
