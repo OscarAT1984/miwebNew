@@ -15,7 +15,7 @@ const About = () => {
                     
                     <div>
                         <h2 className="about__subtitle">Yo  Soy Oscar</h2>
-                        <p className="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                        <p className="about__text">Desarrollador Frontend, Python developer. soy un apacionado de la tecnologia </p>           
                     </div>                                   
                 </div>
             </section>

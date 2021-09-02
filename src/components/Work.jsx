@@ -16,21 +16,27 @@ const Work = () => {
                 <div className="work__container bd-grid">
                     <div className="work__img">
                         <img src={imgWork1} alt="" />
+                        <p>Esta es mi primer proyecto</p>
                     </div>
                     <div className="work__img">
                         <img src={imgWork2}  alt="" />
+                        <p>este es el segundo proyecto</p>
                     </div>
                     <div className="work__img">
                         <img src={imgWork3}  alt="" />
+                        <p>este es el tercer proyecto</p>
                     </div>
                     <div className="work__img">
                         <img src={imgWork4}  alt="" />
+                        <p>este es el cuarto proyecto</p>
                     </div>
                     <div className="work__img">
                         <img src={imgWork5}  alt="" />
+                        <p>este es el quinto proyecto</p>
                     </div>
                     <div className="work__img">
                         <img src={imgWork6}  alt="" />
+                        <p>este es el sexto proyecto</p>
                     </div>
                 </div>
             </section>
