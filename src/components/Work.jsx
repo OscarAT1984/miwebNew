@@ -7,6 +7,7 @@ import imgWork5 from '../img/work5.jpg'
 import imgWork6 from '../img/work6.jpg'
 
 const Work = () => {
+    
     return (
         <>
             <main class="l-main">
@@ -15,28 +16,46 @@ const Work = () => {
 
                 <div className="work__container bd-grid">
                     <div className="work__img">
+                        <a href="https://github.com/OscarAT1984/file-system-booking">
                         <img src={imgWork1} alt="" />
-                        <p>Esta es mi primer proyecto</p>
+                        </a>
+                        <br />
+                        <p>File System Booking</p>
                     </div>
                     <div className="work__img">
+                        <a href="https://github.com/OscarAT1984/Games">
                         <img src={imgWork2}  alt="" />
-                        <p>este es el segundo proyecto</p>
+                        </a>
+                        <br />
+                        <p>Games</p>
                     </div>
                     <div className="work__img">
+                        <a href="https://github.com/OscarAT1984/MiWebNextJS">
                         <img src={imgWork3}  alt="" />
-                        <p>este es el tercer proyecto</p>
+                        </a>
+                        <br />
+                        <p>Mi web con Next.js</p>
                     </div>
                     <div className="work__img">
+                        <a href="https://github.com/OscarAT1984/regresionLogistica">
                         <img src={imgWork4}  alt="" />
-                        <p>este es el cuarto proyecto</p>
+                        </a>
+                        <br />
+                        <p>Regresion Logistica</p>
                     </div>
                     <div className="work__img">
+                        <a href="https://github.com/OscarAT1984/app">
                         <img src={imgWork5}  alt="" />
-                        <p>este es el quinto proyecto</p>
+                        </a>
+                        <br />
+                        <p>APP Chat con Socket.IO</p>
                     </div>
                     <div className="work__img">
+                        <a href="https://github.com/OscarAT1984/miwebNew">
                         <img src={imgWork6}  alt="" />
-                        <p>este es el sexto proyecto</p>
+                        </a>
+                        <br />
+                        <p>Mi Web New</p>
                     </div>
                 </div>
             </section>
